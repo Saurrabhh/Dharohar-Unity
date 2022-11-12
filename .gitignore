@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -58,3 +59,21 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+C:\Users\Saurabh Yadav\Unity Projects\Vismaya-Unity\Assets\FirebaseAssets\Firebase\Plugins\x86_64\FirebaseCppApp-9_3_0.bundle
+UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+UserSettings/EditorUserSettings.asset
+UserSettings/EditorUserSettings.asset
+UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+Assets/FirebaseAssets/Firebase/Plugins/x86_64/FirebaseCppApp-9_3_0.bundle
+Assets/updated_roborao.fbx
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-9_3_0.bundle
+Assets/updated_roborao.fbx
+UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+UserSettings/EditorUserSettings.asset
+Assets/updated_roborao.fbx
+UserSettings/EditorUserSettings.asset
+Assets/updated_roborao.fbx
+Assets/updated_roborao.fbx
+Assets/updated_roborao.fbx
+UserSettings/EditorUserSettings.asset
+UserSettings/EditorUserSettings.asset
