@@ -5589,6 +5589,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1059964492}
     m_Modifications:
     - target: {fileID: 3397387881152564895, guid: 5dc43587d819bf94691d54aae64d9aa9, type: 3}
+      propertyPath: m_text
+      value: Welcome to Dharohar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397387881152564895, guid: 5dc43587d819bf94691d54aae64d9aa9, type: 3}
       propertyPath: m_fontSize
       value: 60
       objectReference: {fileID: 0}
@@ -5750,7 +5754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8127392017322773518, guid: 5dc43587d819bf94691d54aae64d9aa9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 408.6697
+      value: 306
       objectReference: {fileID: 0}
     - target: {fileID: 8127392017322773518, guid: 5dc43587d819bf94691d54aae64d9aa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
