@@ -16,8 +16,6 @@ public class FirebaseManager : MonoBehaviour
     public static DatabaseReference database;
     public static StorageReference storage;
 
-    
-
     public DependencyStatus dependancyStatus;
 
     private void Awake()

@@ -76,12 +76,16 @@ public class DialogueManager : MonoBehaviour
         {
             SceneManager.LoadScene((int)Scenes.StoryofRulers);
         }
+        else if (Input.GetKeyDown(KeyCode.J) && isActive == true)
+        {
+            SceneManager.LoadScene((int)Scenes.TigerClaw);
+        }
         else if (Input.GetKeyDown(KeyCode.M) && isActive == true)
         {
             techniquesCanvas.SetActive(true);
             Diggggg diggggg = FindObjectOfType<Diggggg>();
             diggggg.enabled = false;
-            dialogueTrigger.SetActive(false);
+            gameObject.SetActive(false);
         }
 
     }

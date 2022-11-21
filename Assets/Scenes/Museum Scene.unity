@@ -1532,6 +1532,14 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1023918049}
+    - target: {fileID: 6739809323651436686, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739809323651436686, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
+      propertyPath: dialogues.Array.data[3].dialogue
+      value: Cool! Press M.
+      objectReference: {fileID: 0}
     - target: {fileID: 6739809323651436687, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -2889,11 +2897,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3395564338099430633, guid: f01055a13357fa140bffab5a8713fca8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -211037.39
+      value: -217413.44
       objectReference: {fileID: 0}
     - target: {fileID: 3395564338099430633, guid: f01055a13357fa140bffab5a8713fca8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 222112.38
+      value: 222035.14
       objectReference: {fileID: 0}
     - target: {fileID: 3395564338108570173, guid: f01055a13357fa140bffab5a8713fca8, type: 3}
       propertyPath: m_Vertical

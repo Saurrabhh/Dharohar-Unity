@@ -39,7 +39,7 @@ public class AuthManager : MonoBehaviour
             Debug.Log("lalalalalala");
             panel.SetActive(true);
             player.LoadPlayer(auth.CurrentUser.UserId, format);
-            levelLoader.LoadLevel(Scenes.Terrain);
+            levelLoader.LoadLevel(Scenes.Museum);
         }
         
     }
