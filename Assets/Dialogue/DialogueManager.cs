@@ -12,6 +12,9 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI avatarName;
     public TextMeshProUGUI dialogueText;
     public RectTransform background;
+    [SerializeField] bool rulers;
+    [SerializeField] bool techniques;
+    [SerializeField] bool tigerclaw;
     Collision collision;
     Dialogue[] currentDialogues;  //to store the details of current active sessions
     Avatar[] currentAvatars;
@@ -72,15 +75,15 @@ public class DialogueManager : MonoBehaviour
         {
             Nextmessage();
         }
-        else if (Input.GetKeyDown(KeyCode.N) && isActive == true)
+        else if (Input.GetKeyDown(KeyCode.N) && isActive == true && rulers == true)
         {
             SceneManager.LoadScene((int)Scenes.StoryofRulers);
         }
-        else if (Input.GetKeyDown(KeyCode.M) && isActive == true)
+        else if (Input.GetKeyDown(KeyCode.M) && isActive == true && tigerclaw == true)
         {
             SceneManager.LoadScene((int)Scenes.TigerClaw);
         }
-        else if (Input.GetKeyDown(KeyCode.J) && isActive == true)
+        else if (Input.GetKeyDown(KeyCode.J) && isActive == true && techniques == true)
         {
             techniquesCanvas.SetActive(true);
             Diggggg diggggg = FindObjectOfType<Diggggg>();

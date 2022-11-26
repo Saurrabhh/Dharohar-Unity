@@ -28,15 +28,15 @@ public class AuthManager : MonoBehaviour
     public DatabaseReference database;
     public Player player;
     string format;
+
     private void Start()
     {
         auth = FirebaseManager.auth;
         user = FirebaseManager.user;
         database = FirebaseManager.database;
-        format = "vismaya";
+        format = "dharohar";
         if(auth.CurrentUser != null)
         {
-            Debug.Log("lalalalalala");
             panel.SetActive(true);
             player.LoadPlayer(auth.CurrentUser.UserId, format);
             levelLoader.LoadLevel(Scenes.Museum);

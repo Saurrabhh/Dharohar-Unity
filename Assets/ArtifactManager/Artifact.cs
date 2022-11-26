@@ -12,6 +12,7 @@ public class Artifact : MonoBehaviour
     public int artifact_id;
     public GameObject m_gameObject;
     [SerializeField] public GameObject pillarArtifact;
+    [SerializeField] public Player player;
     
     
     private void OnTriggerEnter(Collider other)
@@ -22,6 +23,8 @@ public class Artifact : MonoBehaviour
         Debug.Log("list entered");
         m_gameObject.SetActive(false);
         Player.expPoints += 100;
+        SavePlayerData.SavePlayer(player, "dharohar");
+        
         
     }
 

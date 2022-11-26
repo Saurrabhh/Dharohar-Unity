@@ -37,7 +37,6 @@ public class LevelLoader : MonoBehaviour
         {
             panel.SetActive(true);
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
-            Debug.Log(progress);
             slider.value = progress;
 
             if(progress >= 1.0f)

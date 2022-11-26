@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     public void LoadPlayer(string uId, string format)
     {
         PlayerData playerData = SavePlayerData.LoadPlayer(uId, format);
+        Debug.Log($"Load 2: {playerData.expPoints}");
         if(playerData == null)
         {
             return;

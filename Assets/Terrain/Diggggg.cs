@@ -56,6 +56,10 @@ public class Diggggg : MonoBehaviour
 
     private void Update()
     {
+        if(Cursor.lockState != CursorLockMode.Locked)
+        {
+            return;
+        }
         
         if (Input.GetMouseButtonDown(0))
         {           

@@ -24,13 +24,14 @@ public static class SavePlayerData
         {
             Directory.CreateDirectory(dir);
         }
-        string path = dir + $"{playerData.uid}.{format}";
+        string path = dir + $"/{playerData.uid}.{format}";
         Debug.Log(path);
         FileStream fs = File.Create(path);
         BinaryFormatter formatter = new BinaryFormatter();
 
         formatter.Serialize(fs, playerData);
         fs.Close();
+        Debug.Log($"Exp : {playerData.expPoints}");
         string json = JsonUtility.ToJson(playerData);
 
 
@@ -68,6 +69,7 @@ public static class SavePlayerData
 
             PlayerData playerData = formatter.Deserialize(fs) as PlayerData;
             fs.Close();
+            Debug.Log($"Load: {playerData.expPoints} {path}");
             return playerData;
         }
         else
@@ -103,7 +105,7 @@ public static class SavePlayerData
         //string json = JsonUtility.ToJson(Player.totalTools);
 
 
-        StorageReference riversRef = storage.Child($"{uid}.{format}");
+        StorageReference riversRef = storage.Child($"{uid}/{uid}.{format}");
         //database.Child("Users").Child(playerData.uid).SetRawJsonValueAsync(json);
 
         // Upload the file to the path "images/rivers.jpg"
