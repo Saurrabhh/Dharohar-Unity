@@ -12,6 +12,7 @@ public enum Scenes
     StoryofRulers,
     TigerClaw,
     Chat,
-    LeaderBoard
+    LeaderBoard,
+    MapPointer
 
 }
