@@ -34,7 +34,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         animator.SetTrigger("Buzzer");
         Player player = FindObjectOfType<Player>();
-        player.gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
+        //player.gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
         yield return new WaitForSeconds(clip.length * 2);
         StartDialogue();
     }

@@ -76,11 +76,11 @@ public class DialogueManager : MonoBehaviour
         {
             SceneManager.LoadScene((int)Scenes.StoryofRulers);
         }
-        else if (Input.GetKeyDown(KeyCode.J) && isActive == true)
+        else if (Input.GetKeyDown(KeyCode.M) && isActive == true)
         {
             SceneManager.LoadScene((int)Scenes.TigerClaw);
         }
-        else if (Input.GetKeyDown(KeyCode.M) && isActive == true)
+        else if (Input.GetKeyDown(KeyCode.J) && isActive == true)
         {
             techniquesCanvas.SetActive(true);
             Diggggg diggggg = FindObjectOfType<Diggggg>();

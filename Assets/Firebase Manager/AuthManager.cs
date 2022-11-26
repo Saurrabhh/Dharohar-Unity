@@ -109,7 +109,7 @@ public class AuthManager : MonoBehaviour
             user = LoginTask.Result;
             player.LoadPlayer(user.UserId, format);
             Debug.LogFormat("User signed in successfully: {0} ({1})", user.DisplayName, user.Email);
-            levelLoader.LoadLevel(Scenes.Terrain);
+            levelLoader.LoadLevel(Scenes.Museum);
         }
 
     }
@@ -190,7 +190,7 @@ public class AuthManager : MonoBehaviour
                     
                     
                     SavePlayerData.SavePlayer(player, format);
-                    levelLoader.LoadLevel(Scenes.Terrain);
+                    levelLoader.LoadLevel(Scenes.Museum);
                     
                 }
             }
