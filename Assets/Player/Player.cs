@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     public static int currentSceneIndex;
     public static int money = 100;
     public static bool hasDugged = false;
-    public static int expPoints;
+    public static int expPoints = 0;
 
     public static List<Tool> totalTools = new();
     public static List<Tool> activeTools = new();

@@ -10,6 +10,7 @@ public class ToggleHUD : MonoBehaviour
     public GameObject player;
     public GameObject chat;
     public GameObject settings;
+    public GameObject subQuest;
 
     private void Awake()
     {
@@ -17,6 +18,14 @@ public class ToggleHUD : MonoBehaviour
         player = FindObjectOfType<Player>().gameObject;
         chat = GameObject.FindGameObjectWithTag("Chat");
         settings = GameObject.FindGameObjectWithTag("Settings");
+    }
+
+    private void Update()
+    {
+        if(Player.expPoints >= 100)
+        {
+            subQuest.gameObject.SetActive(true);
+        }
     }
 
     public void OpenSettings(Canvas settings)

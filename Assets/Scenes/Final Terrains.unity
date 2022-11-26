@@ -1929,11 +1929,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -139382.47
+      value: -151373.8
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 158350.02
+      value: 172283.34
       objectReference: {fileID: 0}
     - target: {fileID: 4469478283038615677, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3669,6 +3669,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4814193083877596734, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397577267659941769, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7535900233041439142, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
@@ -6288,6 +6292,7 @@ MonoBehaviour:
   player: {fileID: 0}
   chat: {fileID: 0}
   settings: {fileID: 1495166810}
+  subQuest: {fileID: 878943526}
 --- !u!4 &1899781871
 Transform:
   m_ObjectHideFlags: 0

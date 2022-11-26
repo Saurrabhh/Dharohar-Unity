@@ -196,6 +196,7 @@ public class AuthManager : MonoBehaviour
                     Player.uid = user.UserId;
                     Player.currentSceneIndex = (int)Scenes.Museum;
                     Player.money = 100;
+                    Player.expPoints = 0;
                     
                     
                     SavePlayerData.SavePlayer(player, format);
