@@ -351,6 +351,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6739809323651436686, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
+      propertyPath: dialogues.Array.data[2].dialogue
+      value: Cool! Press N.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739809323651436686, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
       propertyPath: dialogues.Array.data[3].dialogue
       value: Cool! Press M.
       objectReference: {fileID: 0}
@@ -710,11 +714,6 @@ Transform:
 CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 1014787431578215791, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
   m_PrefabInstance: {fileID: 1804578462}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &685748557 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5402087803550670408, guid: 009a2af69c18e9a4d9cf885064ae7e3e, type: 3}
-  m_PrefabInstance: {fileID: 4412684943554195124}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &702701758 stripped
 GameObject:
@@ -1183,11 +1182,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -84273.17
+      value: -93484.48
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 95877.07
+      value: 106281.57
       objectReference: {fileID: 0}
     - target: {fileID: 4469478283038615677, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1389,6 +1388,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1275798549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1069015205236512560, guid: 009a2af69c18e9a4d9cf885064ae7e3e, type: 3}
+  m_PrefabInstance: {fileID: 4412684943554195124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1335130030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6739809323651436687, guid: b973dbffe0a9ad14dbb46748c600c033, type: 3}
@@ -1845,7 +1849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hud: {fileID: 702701758}
-  player: {fileID: 685748557}
+  player: {fileID: 1275798549}
   chat: {fileID: 0}
   settings: {fileID: 1931933239}
 --- !u!4 &1858184034

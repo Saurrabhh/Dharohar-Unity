@@ -45,7 +45,7 @@ public void OpenChat(Canvas chat)
     {
         chat = GameObject.FindGameObjectWithTag("Chat");
         chat.GetComponent<Canvas>().enabled = false;
-        player.GetComponent<ThirdPersonController>().enabled = false;
+        player.GetComponent<ThirdPersonController>().enabled = true;
         hud.gameObject.SetActive(true);
 
 
