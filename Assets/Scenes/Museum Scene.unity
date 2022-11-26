@@ -1093,11 +1093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1914.0857
+      value: -29192.156
       objectReference: {fileID: 0}
     - target: {fileID: 4469478282650479830, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2753.3318
+      value: 33663.027
       objectReference: {fileID: 0}
     - target: {fileID: 4469478283038615677, guid: 9761e06e9d9d990468c984aa037062e2, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1561,33 +1561,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 5918627261582206005}
-    - target: {fileID: 4814193082686032267, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: bb1db15baee94a8408435154ba68a986, type: 2}
-    - target: {fileID: 4814193082686032267, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 3134420248162816673, guid: bb1db15baee94a8408435154ba68a986, type: 2}
-    - target: {fileID: 4814193083604070196, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4814193083604070196, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4814193083604070196, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4814193083877596722, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
       propertyPath: m_Name
       value: HUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 4814193083877596722, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4814193083877596723, guid: eb387c5f14676804785658cc8c9ffc9f, type: 3}
       propertyPath: ThreeOptionsCanvas
